@@ -1,2 +1,2 @@
-# [CoffeeDevs Docs](https://coffeedevsmc.github.io)
-Official Documentation for CoffeeDevsMC
+# [Rebase Docs](https://js-rebase.github.io/rebase)
+Official Documentation for Rebase
