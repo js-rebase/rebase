@@ -3,43 +3,36 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'en-US',
 
-  title: 'CoffeeDevs Docs',
-  description: 'CoffeeDevs Documentation for all of our Projects',
+  title: 'Rebase',
+  description: 'Rebase Docs',
 
   base: '/',
 
   cleanUrls: true,
 
   themeConfig: {
-    logo: '/CoffeeDevs_final.png',
+    //logo: '/',
 
     nav: [
       {
-        text: 'Modrinth',
-        link: 'https://modrinth.com/organization/coffeedevs'
+        text: 'JS.ORG',
+        link: 'https://rebase.js.org'
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/coffeedevsmc'
+        link: 'https://github.com/js-rebase/code'
       },
       {
-        text: 'Discord',
-        link: 'https://discord.gg/JNEYvDfQW'
+        text: 'Source',
+        link: 'https://github.com/js-rebase/rebase'
       }
     ],
 
     sidebar: [
       {
-        text: 'CoffeDevs docs',
+        text: 'Rebase Documentation',
         items: [
-          {
-            text: 'Home',
-            link: '/'
-          },
-          {
-            text: 'Projects',
-            link: '/projects'
-          }
+          //{text:"",link:""}
         ]
       }
     ],
@@ -47,15 +40,11 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/coffeedevsmc'
+        link: 'https://github.com/js-rebase'
       },
       {
-        icon: 'modrinth',
-        link: 'https://modrinth.com/organization/coffeedevs'
-      },
-      {
-        icon: 'discord',
-        link: 'https://discord.gg/JNEYvDfQW'
+        icon: 'javascript',
+        link: 'https://rebase.js.org'
       }
     ],
 
@@ -64,13 +53,13 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/coffeedevsmc/coffeedevsmc.github.io/edit/main/docs/:path',
+      pattern: 'https://github.com/js-rebase/rebase/edit/main/docs/:path',
       text: 'Edit this page'
     },
 
     footer: {
-      message: 'Made with VitePress by Intensed',
-      copyright: 'Copyright © 2026 CoffeeDevs'
+      message: 'Made by the Rebase Team',
+      copyright: 'Copyright © 2026 Rebase'
     }
   }
 })
