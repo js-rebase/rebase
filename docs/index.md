@@ -2,27 +2,38 @@
 layout: home
 
 hero:
-  name: CoffeeDevs
-  text: docs
-  tagline: Developer documentation for CoffeeDevs
+  name: Rebase
+  text: <Badge type="tip" text="Now in Beta!" />
+  tagline: JavaScript-first Web Framework
   actions:
     - theme: brand
       text: Get Started
       link: /getting-started
     - theme: alt
-      text: Modrinth
-      link: https://modrinth.com/organization/coffeedevs
-    - theme: alt
       text: GitHub
-      link: https://github.com/coffeedevsmc/coffeedevsmc.github.io
+      link: https://github.com/js-rebase
+    - theme: alt
+      text: Source
+      link: https://github.com/js-rebase/rebase
 
 features:
-  - title: No Foliage
-    details: Boost your FPS be removing the nasty grass with a simple texturepack!
+  - title: Fast & Easy
+    icon: 🚀
+    details: Rebase is fast and easy to use, perfect for beginners and professional devs.
 
-  - title: Fallback
-    details: Another Library Mod with shared code for Intense's and CoffeeDevs' Datapacks.
+  - title: Community-driven
+    icon: 👥
+    details: Rebase is completely driven by the community, for the community.
 
-  - title: Cratty
-    details: An Icon Library for Minecraft to use Icons in your Mods, Datapacks, Texturepacks and so on.
+  - title: JavaScript-first
+    icon: ⚡️
+    details: The Compiler is completely built using JavaScript, which means that it works 100% in every browser.
+
+  - title: Open-Source
+    icon: 🗂️
+    details: Rebase is open-source, so you can view, edit and even fork Rebase's code and help it grow & improve!
+
+  - title: Brand New!
+    icon: 🐣
+    details: Rebase is a completely new, work-in-progress project, using the newest technology and focussing on modern development.
 ---
