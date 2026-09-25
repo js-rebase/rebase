@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'Rebase',
   description: 'Rebase Docs',
 
-  base: '/',
+  base: '/rebase/',
 
   cleanUrls: true,
 
