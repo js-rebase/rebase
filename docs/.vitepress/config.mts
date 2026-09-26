@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'en-US',
 
-  title: '',
-  description: '',
+  title: ' ',
+  description: ' ',
 
   base: '/rebase/',
 
