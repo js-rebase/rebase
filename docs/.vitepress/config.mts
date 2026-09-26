@@ -3,15 +3,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'en-US',
 
-  title: 'Rebase',
-  description: 'Rebase Docs',
+  title: '',
+  description: '',
 
   base: '/rebase/',
 
   cleanUrls: true,
 
   themeConfig: {
-    logo: 'https://raw.githubusercontent.com/js-rebase/branding/207e009036453b4f367a1ba9d8925361571153a0/assets/brackets.svg',
+    logo: 'https://raw.githubusercontent.com/js-rebase/branding/207e009036453b4f367a1ba9d8925361571153a0/assets/full_logo.svg',
 
     nav: [
       {
