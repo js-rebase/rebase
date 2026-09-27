@@ -39,8 +39,6 @@ features:
   description="Follow the documentation from fundamentals through integrations and the API reference."
 />
 
-[Get started](/introduction/getting-started) · [Learn the architecture](/guide/overview) · [Find plugins](/plugins/) · [Read the reference](/reference/core)
-
 ## A small extension layer
 
 A date formatter, icon system or project-specific directive does not need to become a framework.
