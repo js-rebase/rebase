@@ -29,4 +29,4 @@ Before using a plugin, check its supported Rebase version, registered syntax, HT
 
 A catalog entry should include the package name, description, supported Rebase versions, source repository and whether it is official or community-maintained.
 
-See [Plugin development](/plugins/overview) to build an extension.
+See [Plugin development](/) to build an extension.
