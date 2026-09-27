@@ -4,7 +4,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Rebase',
   description: 'JavaScript-first enhancement layer for the web.',
-  base: '/rebase/',
+  base: '/',
   cleanUrls: true,
 
   themeConfig: {
