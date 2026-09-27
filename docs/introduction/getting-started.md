@@ -41,7 +41,7 @@ const app = createRebase();
 app.use(hello);
 ```
 
-For reusable packages, see [Plugin development](/plugins/overview).
+For reusable packages, see [Plugin development](/).
 
 ## Browser mounting
 
@@ -51,4 +51,4 @@ rebase.mount("#app", {
 });
 ```
 
-Continue with [Core concepts](/guide/overview).
+Continue with [Core concepts](/).
